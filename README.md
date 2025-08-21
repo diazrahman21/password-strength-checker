@@ -1,12 +1,72 @@
-# React + Vite
+# Password Strength Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web sederhana untuk memeriksa kekuatan password secara real-time menggunakan React dan Vite.
 
-Currently, two official plugins are available:
+![Password Strength Checker Screenshot](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur
 
-## Expanding the ESLint configuration
+- Input field untuk memasukkan password
+- Indikator kekuatan password (lemah, sedang, kuat) secara real-time
+- Progress bar visual yang menunjukkan kekuatan password
+- Kriteria kekuatan password:
+  - Panjang minimal 8 karakter
+  - Mengandung huruf besar dan kecil
+  - Mengandung angka
+  - Mengandung simbol/karakter khusus
+- Desain responsif dan modern
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Cara Penggunaan
+
+1. Buka aplikasi di browser
+2. Masukkan password di kolom input
+3. Perhatikan indikator kekuatan password yang berubah secara real-time:
+   - **Merah** = Lemah (memenuhi 0-1 kriteria)
+   - **Oranye** = Sedang (memenuhi 2-3 kriteria)
+   - **Hijau** = Kuat (memenuhi semua kriteria)
+4. Lihat progress bar yang menunjukkan persentase kekuatan password
+
+## Teknologi yang Digunakan
+
+- **React** - Library JavaScript untuk membangun antarmuka pengguna
+- **Vite** - Build tool yang cepat untuk aplikasi web modern
+- **CSS** - Untuk styling dan desain responsif
+
+## Cara Menjalankan Proyek
+
+1. Pastikan Anda memiliki [Node.js](https://nodejs.org/) terinstal
+2. Clone repositori ini
+   ```
+   git clone https://github.com/diazrahman21/password-strength-checker.git
+   ```
+3. Masuk ke direktori proyek
+   ```
+   cd password-strength-checker
+   ```
+4. Instal dependensi
+   ```
+   npm install
+   ```
+5. Jalankan server development
+   ```
+   npm run dev
+   ```
+6. Buka http://localhost:5173 di browser Anda (atau port lain yang ditampilkan di terminal)
+
+## Membangun untuk Produksi
+
+Untuk membangun aplikasi untuk produksi:
+
+```
+npm run build
+```
+
+File-file hasil build akan tersedia di direktori `dist/`
+
+## Lisensi
+
+[MIT](LICENSE)
+
+---
+
+Dibuat oleh Diaz Rahman | Portfolio Project
