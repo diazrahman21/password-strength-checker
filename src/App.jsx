@@ -65,10 +65,10 @@ function App() {
         </div>
         {/* Penjelasan kriteria */}
         <ul className="text-xs text-gray-500 mt-4 space-y-1">
-          <li>• Minimal 8 karakter</li>
-          <li>• Ada huruf besar & kecil</li>
-          <li>• Ada angka</li>
-          <li>• Ada simbol</li>
+          <li>Minimal 8 karakter</li>
+          <li>Ada huruf besar & kecil</li>
+          <li>Ada angka</li>
+          <li>Ada simbol</li>
         </ul>
         {/* Komentar: Desain responsif & modern dengan Tailwind CSS */}
       </div>
