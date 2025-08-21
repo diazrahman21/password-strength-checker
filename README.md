@@ -2,7 +2,7 @@
 
 Aplikasi web sederhana untuk memeriksa kekuatan password secara real-time menggunakan React dan Vite.
 
-![Password Strength Checker Screenshot](screenshot.png)
+![Password Strength Checker Screenshot](/src/assets/ss.jpg)
 
 ## Fitur
 
